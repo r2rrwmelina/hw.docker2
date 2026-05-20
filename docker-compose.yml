@@ -1,0 +1,5 @@
+services:
+  db-api-for-docker:
+    build: .
+    ports:
+      - '9999:9999'
